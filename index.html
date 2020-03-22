@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+    <link rel="stylesheet" href="./Assets/weatherdashboard.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src ="./Assets/weatherdashboard.js"></script>
+</head>
+<body>
+<div class="container-fluid bg-dark text-white">
+    <h1> Weather Dashboard </h1>
+    <div class="container-fluid" id="Search">
+        <div class="row">
+            <div class= "col-md-3.col-md-offset-3">
+                <div class= "form-group">
+                    <label for="city"> Search for a city: </label>
+                    <input type= "text" class= "form-control" id="city" value = "">
+                    <button id="submit">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class= "container-fluid">
+    <div class="row">
+        <div class= "col-md-6.col-md-offset-6" id="Result">
+            <div class= "temperature" id="temperature">Temperature: </div>
+            <div class= "humidity" id="humidity">Humidity: </div>
+            <div class= "windSpeed" id="windspeed">Wind Speed: </div>
+        </div>
+    </div>
+    <div class= "container-fluid">
+        <div class="row">
+            <div class= "card-deck bg-primary text-center" id ="day1">
+                <div class="date"><p>Date:</p></div>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value" id="temperature"><p> Temp: - <span>C</span></p></div>
+                <div class="humidity-value" id="humidity"><p> Humidity: </p></div>
+            </div>
+            <div class= "card-deck bg-primary text-center" id ="day2">
+                <div class="date"><p>Date:</p></div>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value" id="temperature"><p> Temp: - <span>C</span></p></div>
+                <div class="humidity-value" id="humidity"><p> Humidity: </p></div>
+            </div>
+            <div class= "card-deck bg-primary text-center" id ="day3">
+                <div class="date"><p>Date:</p></div>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value" id="temperature"><p> Temp: - <span>C</span></p></div>
+                <div class="humidity-value" id="humidity"><p>Humidity: </p></div>
+            </div>
+            <div class= "card-deck bg-primary text-center" id ="day4">
+                <div class="date"><p>Date:</p></div>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value" id="temperature"><p>Temp: - <span>C</span></p></div>
+                <div class="humidity-value" id="humidity"><p> Humidity:</p></div>
+            </div>
+            <div class= "card-deck bg-primary text-center" id ="day5">
+                <div class="date"><p>Date:</p></div>
+                <div class="weather-icon"><img src="icons/unknown.png"></div>
+                <div class="temperature-value" id="temperature"><p>Temp: - <span>C</span></p></div>
+                <div class="humidity-value" id="humidity"><p> Humidity: </p></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

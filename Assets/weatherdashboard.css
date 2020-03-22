@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 10px;
+    margin:auto;
+    text-align: center;
+    background-color:white;
+    font-family: cursive; 
+}
+#h1 {
+    font-weight: bold;
+    font-size: medium;
+    padding: 0 0 30px 0;
+
+}
+#Search{
+    background-color: brown;
+    padding:2px;
+    width:600px;
+    display: inline-block;
+}
+
+#Result{
+    background-color: brown;
+    padding:2px;
+    width:600px;
+    display: inline-block;
+}
+
+#day1{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#day2{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#day3{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#day4{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+#day5{
+    background-color: chocolate;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
