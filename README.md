@@ -17,11 +17,11 @@ Below are screenshots of my page and code for review:
 
 ### Screenshot of html ###
 
-![Screenshot of the HTML Code](assets/screenshots/html.png)
+![Screenshot of the HTML Code](assets/screenshots/html.PNG)
 
 ### Screenshot of Script ###
 
-![Screenshot of the Contact Page](Assets/screenshots/script.png)
+![Screenshot of the Contact Page](Assets/screenshots/script.PNG)
 
 
 ## Built With ##
