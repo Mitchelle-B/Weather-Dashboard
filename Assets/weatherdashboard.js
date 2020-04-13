@@ -5,6 +5,7 @@ var iconURL= "http://openweathermap.org/img/w/"
 var units = "&units=metric";
 
 
+
 function weatherRequest(city){
     console.log(city)
     var weatherURL = api_path + city + apikey + units;
@@ -39,7 +40,7 @@ function weatherforecast(city){
        var forecasttemperature1 = $("#forecasttemperature1").text("Temperature: " + response.list[1].main.temp);
        var humidity1 = $("#forecasthumidity1").text("Humidity: " + response.list[1].main.humidity);
        var description1 = $("#description1").text("Description:" + response.list[1].weather[0].description);
-       var icon1 = $("#icon1").html("<img src=" + iconURL + response.list[1].weather[0].icon + apikey  + ".png' alt='Icon depicting current weather.'>");
+       var icon1 = $("#icon1").html("<img src=" + iconURL + response.list[1].weather[0].icon  + ".png>");
 
     
        //Day 2 forecast 
@@ -48,7 +49,7 @@ function weatherforecast(city){
        var forecasttemperature2 = $("#forecasttemperature2").text("Temperature: " + response.list[9].main.temp);
        var humidity2 = $("#forecasthumidity2").text("Humidity: " + response.list[9].main.humidity);
        var description2 = $("#description2").text("Description:" + response.list[9].weather[0].description);
-       var icon2 = $("#icon2").html("<img src=url" + iconURL + response.list[9].weather[0].icon + ".png' alt='Icon depicting current weather.'>");
+       var icon2 = $("#icon2").html("<img src=" + iconURL + response.list[9].weather[0].icon + ".png>");
 
        // Day 3 forecast
 
@@ -56,7 +57,7 @@ function weatherforecast(city){
        var forecasttemperature3 = $("#forecasttemperature3").text("Temperature: " + response.list[17].main.temp);
        var humidity3 = $("#forecasthumidity3").text("Humidity: " + response.list[17].main.humidity);
        var description3 = $("#description3").text("Description:" + response.list[17].weather[0].description);
-       var icon3 = $("#icon3").html("<img src=" + iconURL + response.list[17].weather[0].icon + ".png' alt='Icon depicting current weather.'>");
+       var icon3 = $("#icon3").html("<img src=" + iconURL + response.list[17].weather[0].icon + ".png>");
 
        // Day 4 forecast 
 
@@ -64,7 +65,7 @@ function weatherforecast(city){
        var forecasttemperature4 = $("#forecasttemperature4").text("Temperature: " + response.list[25].main.temp);
        var humidity4 = $("#forecasthumidity4").text("Humidity: " + response.list[25].main.humidity);
        var description4 = $("#description4").text("Description:" + response.list[25].weather[0].description);
-       var icon4 = $("#icon4").html("<img src=" + iconURL + response.list[25].weather[0].icon + ".png' alt='Icon depicting current weather.'>");
+       var icon4 = $("#icon4").html("<img src=" + iconURL + response.list[25].weather[0].icon + ".png>");
 
        // Day 5 forecast 
 
@@ -72,7 +73,7 @@ function weatherforecast(city){
        var forecasttemperature5 = $("#forecasttemperature5").text("Temperature: " + response.list[33].main.temp);
        var humidity5 = $("#forecasthumidity5").text("Humidity: " + response.list[33].main.humidity);
        var description5 = $("#description5").text("Description:" + response.list[33].weather[0].description);
-       var icon5 = $("#icon5").html("<img src=" + iconURL + response.list[33].weather[0].icon + ".png' alt='Icon depicting current weather.'>");
+       var icon5 = $("#icon5").html("<img src=" + iconURL + response.list[33].weather[0].icon + ".png>");
        
        $("#city").val("");
 
