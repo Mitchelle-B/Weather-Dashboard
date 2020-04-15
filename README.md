@@ -5,7 +5,7 @@
 
 ## About The Page ## 
 
-Builting a wreather dashboad using OpenWeather Map APIs. 
+Building a weather dashboard using OpenWeather Map APIs. 
 
 ## Screenshots of my code ##
 
